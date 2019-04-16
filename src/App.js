@@ -4,11 +4,9 @@ import Todos from './components/Todos';
 import Header from './layout/Header';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
-// import uuid from 'uuid';
 import axios from 'axios';
 
 import './App.css';
-import { throws } from 'assert';
 
 class App extends Component {
   state = {
